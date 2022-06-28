@@ -3,5 +3,5 @@ if status is-interactive
 end
 
 if [ (tty) = "/dev/tty1" ]
-    startx /usr/bin/i3
+    sway
 end
